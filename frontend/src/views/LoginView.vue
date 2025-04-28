@@ -29,7 +29,7 @@
   import { ElForm, ElFormItem, ElInput, ElButton, ElCard } from 'element-plus';
   
   export default {
-    name: 'LoginPage',
+    name: 'LoginView',
     components: {
       ElForm,
       ElFormItem,
