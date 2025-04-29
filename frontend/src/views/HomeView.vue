@@ -1,9 +1,16 @@
-<script setup>
-import TheWelcome from '../components/TheWelcome.vue'
+<script>
+export default {
+  data() {
+    return {
+      message: '草拟吗！',
+    }
+  },
+}
 </script>
 
 <template>
-  <main>
-    <TheWelcome />
-  </main>
+  <h3>模板语法</h3>
+  <p>{{ message }}</p>
 </template>
+
+<style></style>
