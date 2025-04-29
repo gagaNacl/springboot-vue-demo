@@ -56,8 +56,8 @@ fullstack-springboot-vue/
 - MySQL 5.7+
 
 ### 前端
-- Node.js 14+
-- npm / yarn
+- Node.js v22.14.0
+- npm 11.2.0
 
 ## 快速启动
 
