@@ -1,17 +1,14 @@
-<script>
-export default {
-  data() {
-    return {
-      message: '草拟吗！',
-    }
-  },
-}
-</script>
+<script></script>
 
 <template>
-  <h3>模板语法</h3>
-  <p>{{ message }}</p>
-  <div></div>
+  <div id="app">
+    <h1>hello world</h1>
+  </div>
 </template>
 
-<style></style>
+<style>
+.wordclass {
+  color: red;
+  font-size: 30px;
+}
+</style>
