@@ -87,26 +87,3 @@ frontend/
 ├── public/           # 公共资源
 └── vite.config.js    # Vite 配置
 ```
-
-### 模块依赖关系
-
-```mermaid
-graph TD
-    A[路由模块] --> B[权限模块]
-    B --> C[页面组件]
-    D[状态管理] --> B
-    D --> C
-    E[API模块] --> D
-```
-
-### 数据流向
-
-```mermaid
-graph LR
-    A[用户界面] --> B[Pinia Store]
-    B --> C[API 请求]
-    C --> D[后端服务]
-    D --> C
-    C --> B
-    B --> A
-```
