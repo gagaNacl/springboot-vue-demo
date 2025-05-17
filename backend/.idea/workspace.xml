@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="fcebb930-54b6-40bb-aa2b-e3ea3bf851e8" name="更改" comment="1">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiandu/backend/pojo/Category.java" afterDir="false" />
+    <list default="true" id="fcebb930-54b6-40bb-aa2b-e3ea3bf851e8" name="更改" comment="创建类别实体">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/jiandu/backend/pojo/Article.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +104,15 @@
       <option name="project" value="LOCAL" />
       <updated>1747486690684</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="创建类别实体">
+      <option name="closed" value="true" />
+      <created>1747486939893</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1747486939893</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -117,6 +125,7 @@
     <MESSAGE value="添加用户实体类" />
     <MESSAGE value="添加lombok依赖" />
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="创建类别实体" />
+    <option name="LAST_COMMIT_MESSAGE" value="创建类别实体" />
   </component>
 </project>
