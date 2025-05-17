@@ -1,9 +1,11 @@
 
-package com.jiandu.backend.demos.web;
+package com.jiandu.backend.pojo;
 
+import lombok.Data;
 
 import java.time.LocalDateTime;
 
+@Data
 public class User {
 
     private Integer id;//主键id
