@@ -21,4 +21,8 @@ public class Result<T> {
     public static Result error() {
         return new Result(500, "error", null);
     }
+    // 新增：带自定义错误信息的方法
+    public static Result error(String message) {
+        return new Result(500, message, null);
+    }
 }
